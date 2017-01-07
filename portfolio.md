@@ -4,6 +4,12 @@
 
 ## Projects:
 
+---
+
+![alt text][fan-mountain=timelapse]
+
+---
+
 ### Smart Bike Light
 
 Highlights:
@@ -55,3 +61,5 @@ Highlights:
 During my spring semester 2nd year, I was in a group for an Arduino-powered automated desktop greenhouse project. The group consisted of myself the mechanical engineering major, a systems engineering major, and a computer engineering major. The project had aspects that each of us had knowledge in and that we would take the lead on. I was responsible for designing, 3D printing, and implementing a servo-motor controlled lid for the greenhouse. I used Autodesk Inventor to design the parts, and they were 3D printed on an ABS-extrusion Afinia printer.
 During the course of the project, I also began writing a significant portion of the code, and by the end of the project most of the code had been written by me with assistance from the other team members with debugging. The code was written in C for the Arduino microcontroller. There were also PHP scripts and HTML documents that we needed for the project in order to have our greenhouse communicate with a database and display data on a website. For the internet communication coding, the systems and computer engineer wrote most of the code, but I also assisted with debugging. The project was successfully completed on time. 
 Based on my performance, the professor invited me to revisit the project this semester for a cyber-physical security demonstration. We reconstructed the greenhouse and circuit, then modified the code to utilize numerical simulation to predict the temperature and detect when the greenhouse has been tampered with. This project was presented to the UVA Systems Engineering Advisory Panel as a demonstration of student capabilities in the realm of cyber-physical security systems.
+
+[fan-mountain-timelapse]: https://jaz-jlh.github.io/images/fan-mountain-timelapse.gif "Timelapse at Fan Mountain"
