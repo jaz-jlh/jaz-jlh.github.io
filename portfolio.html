@@ -46,7 +46,11 @@
 	style="=width:100%">
 	</a>
 	<a href="#semi-quadcopter">
-	<img src="https://jaz-jlh.github.io/images/milling.gif" alt="Completed electric guitar" 
+	<img src="https://jaz-jlh.github.io/images/milling.gif" alt="Milling parts for the clock" 
+	style="=width: 100%">
+	</a>
+	<a href="#semi-quadcopter">
+	<img src="https://jaz-jlh.github.io/images/clock-workshop.jpg" alt="Partially completed clock." 
 	style="=width: 100%">
 	</a>
   </div>
@@ -65,57 +69,232 @@
 
 
 
-<hr />
-<div style="margin-left: 256px;margin-right: 256px;margin-bottom: 256px">
-<h3 class="w3-center" id="smart-bike-light">Smart Bike Light</h3>
-<p>Highlights</p>
-<ul>
-	<li>AC-DC Power Conversion</li>
-	<li>Human-Machine Interfaces (HMI)</li>
-	<li> Mechanical-Electrical Integration</li>
-</ul>
-<p>For our final project in SYS 3048 Integrated Systems Design, we were tasked with creating a bike lighting solution. This project was intentionally left open ended so that we could embed ourselves in the problem to learn more about user needs and find out what we needed to design on our own rather than be given strict requirements. Our project team consisted of 2 computer engineers, 2 mechanical engineers, and 1 systems engineer. While we all had our own respective areas of expertise, we were required to interface with each other and understand the different disciplines within the project to ensure smooth integration.</p>
-<p>During this project I learned a great deal about AC to DC power conversion, the difficulties of working with an inconsistent power supply (a bike generator hub), and the non-trivial task of getting electrical and mechanical systems to integrate while still meeting design requirements.</p>
+<!-- BIKE LIGHT -->
+<div class="w3-row-padding" style="margin-left: 256px;margin-right: 256px;margin-bottom: 50px">
+	<div class="w3-third">
+		<h3 class="w3-center" id="smart-bike-light">
+			Smart Bike Light
+		</h3>
+		<p>
+			Highlights:
+		</p>
+		<ul>
+			<li>AC-DC Power Conversion</li>
+			<li>Human-Machine Interfaces (HMI)</li>
+			<li> Mechanical-Electrical Integration</li>
+		</ul>
+		<p style="text-indent: 40px">
+			For our final project in SYS 3048 Integrated Systems Design, we were tasked with creating a bike lighting solution. This project was intentionally left open ended so that we could embed ourselves in the problem to learn more about user needs and find out what we needed to design on our own rather than be given strict requirements. Our project team consisted of 2 computer engineers, 2 mechanical engineers, and 1 systems engineer. While we all had our own respective areas of expertise, we were required to interface with each other and understand the different disciplines within the project to ensure smooth integration.
+		</p>
+		<p style="text-indent: 40px">
+			During this project I learned a great deal about AC to DC power conversion, the difficulties of working with an inconsistent power supply (a bike generator hub), and the non-trivial task of getting electrical and mechanical systems to integrate while still meeting design requirements.
+		</p>
+	</div>
 
+	<div class="w3-third">
+		<img src="https://jaz-jlh.github.io/images/bike-light-handlebars.jpg" alt="Bike Light Interface" style="width: 100%">
+	</div>
 
-<h3 class="w3-center" id="semi-quadcopter">Semi-Quadcopter</h3>
-<p>Highlights:</p>
-<ul>
-	<li>PID Control</li>
-	<li>Kalman Filtering / Sensor Fusion</li>
-	<li>I2C Protocol</li>
-	<li>Multi-processor Management</li>
-</ul>
-<p>This project was assigned as the final project in my Mechatronics course. All three of our team members were mechanical engineering majors. Using an accelerometer, gyroscope, and ultrasonic sensor we had to control 2 degrees of freedom of a semi-quadcopter system with 2 propellers. We implemented a Kalman filter in our code to process the noise from the accelerometer and the drift in the gyroscope. The speed of the propellers was controlled using Proportional Integral Derivative (PID) control to adjust the power supplied to the motors through an H-Bridge with pulse-width modulation (PWM). I was responsible for the code and most of the 3D printed parts we designed to create our structure. The code was written in C for the Propeller microcontroller.</p>
-
-
-<h3 class="w3-center" id="time-lapse-camera-slider">Time-Lapse Camera Slider</h3>
-<p>Highlights:</p>
-<ul>
-	<li>Independent Project</li>
-	<li>Solidworks Components and Assembly</li>
-	<li>Electromechanical Design and Integration</li>
-</ul>
-<p>I am currently working on an independent project for fun which involves building an Arduino controlled slider for taking time-lapses. The slider will mount between two tripods, and stepper motors will move the carriage from one end to the other while the camera takes pictures at intervals. I constructed the slider portion of the project, and I have begun work on the carriage. I have also written most of the final code that will be necessary for operation. I designed the project in SolidWorks, and many of the parts were 3D printed on an Afinia 3D printer using my own designs. Other parts that were not 3D printed I specified and bought online. For some aluminum parts I used a horizontal band saw and lathe to make the parts, and some electronic parts also required soldering. This project was inspired by an Instructables.com project for a cheap DSLR slider rail using 3D printed parts. I had just finished an introductory course on mechatronics and microcontrollers and was interested in finding a project that could combine my passion for photography with my interest in mechatronics.</p>
-
-
-<h3 class="w3-center" id="line-following-robot">Line-Following Robot</h3>
-<p>Highlights:</p>
-<ul>
-	<li>Robot built from scratch</li>
-</ul>
-<p>In my Intro to Electromechanical Systems class, we were assigned a group project. We were required to build an Arduino powered line-following automated delivery robot. I was in a team with systems and computer engineering majors. I was responsible for building the robot and coding in Arduino. I designed the chassis and mounting for the servo delivery system in Autodesk Inventor. The servo delivery system was 3D printed on an Afinia 3D printer, and the chassis was laser cut out of acrylic. I also created most of the circuits for the robot, and designed the chassis to fit all of the necessary components which included the battery pack, the Arduino microcontroller, breadboard, motors with encoders, and reflectance sensors. Our robot was the first to be successfully completed and the professor used our robot to test his code on. During the following semester, I worked with my professor to update the code for the robot to be compatible with a WiFi shield that allowed the robot to move wirelessly.</p>
-
-
-<h3 class="w3-center" id="automated-greenhouse">Automated Greenhouse</h3>
-<p>Highlights:</p>
-<ul>
-	<li>Thermal measurement and control</li>
-	<li>PHP &amp; SQL Database Communication</li>
-	<li>Hysteresis for &quot;bang-bang&quot; control</li>
-</ul>
-<p>During my spring semester 2nd year, I was in a group for an Arduino-powered automated desktop greenhouse project. The group consisted of myself the mechanical engineering major, a systems engineering major, and a computer engineering major. The project had aspects that each of us had knowledge in and that we would take the lead on. I was responsible for designing, 3D printing, and implementing a servo-motor controlled lid for the greenhouse. I used Autodesk Inventor to design the parts, and they were 3D printed on an ABS-extrusion Afinia printer. During the course of the project, I also began writing a significant portion of the code, and by the end of the project most of the code had been written by me with assistance from the other team members with debugging. The code was written in C for the Arduino microcontroller. There were also PHP scripts and HTML documents that we needed for the project in order to have our greenhouse communicate with a database and display data on a website. For the internet communication coding, the systems and computer engineer wrote most of the code, but I also assisted with debugging. The project was successfully completed on time. Based on my performance, the professor invited me to revisit the project this semester for a cyber-physical security demonstration. We reconstructed the greenhouse and circuit, then modified the code to utilize numerical simulation to predict the temperature and detect when the greenhouse has been tampered with. This project was presented to the UVA Systems Engineering Advisory Panel as a demonstration of student capabilities in the realm of cyber-physical security systems.</p>
+	<div class="w3-third">
+		<img src="https://jaz-jlh.github.io/images/bike-light-handlebars.jpg" alt="Bike Light Interface" style="width: 100%">
+	</div>
 </div>
+<!-- BIKE LIGHT -->
+
+
+<!-- SEMI-QUADCOPTER -->
+<div class="w3-row-padding" style="margin-left: 256px;margin-right: 256px;margin-bottom: 50px">
+	<div class="w3-third">
+		<h3 class="w3-center" id="semi-quadcopter">
+			Semi-Quadcopter
+		</h3>
+		<p>
+			Highlights:
+		</p>
+		<ul>
+			<li>PID Control</li>
+			<li>Kalman Filtering / Sensor Fusion</li>
+			<li>I2C Protocol</li>
+			<li>Multi-processor Management</li>
+		</ul>
+		<p style="text-indent: 40px">
+			This project was assigned as the final project in my Mechatronics course. All three of our team members were mechanical engineering majors. Using an accelerometer, gyroscope, and ultrasonic sensor we had to control 2 degrees of freedom of a semi-quadcopter system with 2 propellers. We implemented a Kalman filter in our code to process the noise from the accelerometer and the drift in the gyroscope. The speed of the propellers was controlled using Proportional Integral Derivative (PID) control to adjust the power supplied to the motors through an H-Bridge with pulse-width modulation (PWM). I was responsible for the code and most of the 3D printed parts we designed to create our structure. The code was written in C for the Propeller microcontroller.
+		</p>
+	</div>
+
+	<div class="w3-third">
+		<img src="https://jaz-jlh.github.io/images/bike-light-handlebars.jpg" alt="Bike Light Interface" style="width: 100%">
+	</div>
+
+	<div class="w3-third">
+		<img src="https://jaz-jlh.github.io/images/bike-light-handlebars.jpg" alt="Bike Light Interface" style="width: 100%">
+	</div>
+</div>
+<!-- SEMI-QUADCOPTER -->
+
+
+<!-- TIME-LAPSE SLIDER -->
+<div class="w3-row-padding" style="margin-left: 256px;margin-right: 256px;margin-bottom: 50px">
+	<div class="w3-third">
+		<h3 class="w3-center" id="time-lapse-slider">
+			Time-Lapse Camera Slider
+		</h3>
+		<p>
+			Highlights:
+		</p>
+		<ul>
+				<li>Independent Project</li>
+				<li>Solidworks Components and Assembly</li>
+				<li>Electromechanical Design and Integration</li>
+		</ul>
+		<p style="text-indent: 40px">
+			I am currently working on an independent project for fun which involves building an Arduino controlled slider for taking time-lapses. The slider will mount between two tripods, and stepper motors will move the carriage from one end to the other while the camera takes pictures at intervals. I constructed the slider portion of the project, and I have begun work on the carriage. I have also written most of the final code that will be necessary for operation. I designed the project in SolidWorks, and many of the parts were 3D printed on an Afinia 3D printer using my own designs. Other parts that were not 3D printed I specified and bought online. For some aluminum parts I used a horizontal band saw and lathe to make the parts, and some electronic parts also required soldering. This project was inspired by an Instructables.com project for a cheap DSLR slider rail using 3D printed parts. I had just finished an introductory course on mechatronics and microcontrollers and was interested in finding a project that could combine my passion for photography with my interest in mechatronics.
+		</p>
+	</div>
+
+	<div class="w3-third">
+		<img src="https://jaz-jlh.github.io/images/bike-light-handlebars.jpg" alt="Bike Light Interface" style="width: 100%">
+	</div>
+
+	<div class="w3-third">
+		<img src="https://jaz-jlh.github.io/images/bike-light-handlebars.jpg" alt="Bike Light Interface" style="width: 100%">
+	</div>
+</div>
+<!-- TIME-LAPSE SLIDER -->
+
+
+<!-- LINE-FOLLOWING ROBOT -->
+<div class="w3-row-padding" style="margin-left: 256px;margin-right: 256px;margin-bottom: 50px">
+	<div class="w3-third">
+		<h3 class="w3-center" id="line-following-robot">
+			Line-Following Robot
+		</h3>
+		<p>
+			Highlights:
+		</p>
+		<ul>
+			<li>Robot built from scratch</li>
+			<li>Designed Laser-Cut and 3D Printed Parts</li>
+			<li>Single Processor Timing Management</li>
+		</ul>
+		<p style="text-indent: 40px">
+			In my Intro to Electromechanical Systems class, we were assigned a group project. We were required to build an Arduino powered line-following automated delivery robot. I was in a team with systems and computer engineering majors. I was responsible for building the robot and coding in Arduino. I designed the chassis and mounting for the servo delivery system in Autodesk Inventor. The servo delivery system was 3D printed on an Afinia 3D printer, and the chassis was laser cut out of acrylic. I also created most of the circuits for the robot, and designed the chassis to fit all of the necessary components which included the battery pack, the Arduino microcontroller, breadboard, motors with encoders, and reflectance sensors. Our robot was the first to be successfully completed and the professor used our robot to test his code on. During the following semester, I worked with my professor to update the code for the robot to be compatible with a WiFi shield that allowed the robot to operate wirelessly.
+		</p>
+	</div>
+
+	<div class="w3-third">
+		<img src="https://jaz-jlh.github.io/images/bike-light-handlebars.jpg" alt="Bike Light Interface" style="width: 100%">
+	</div>
+
+	<div class="w3-third">
+		<img src="https://jaz-jlh.github.io/images/bike-light-handlebars.jpg" alt="Bike Light Interface" style="width: 100%">
+	</div>
+</div>
+<!-- LINE-FOLLOWING ROBOT -->
+
+<!-- AUTOMATED GREENHOUSE -->
+<div class="w3-row-padding" style="margin-left: 256px;margin-right: 256px;margin-bottom: 50px">
+	<div class="w3-third">
+		<h3 class="w3-center" id="automated-greenhouse">
+			Automated Greenhouse
+		</h3>
+		<p>
+			Highlights:
+		</p>
+		<ul>
+			<li>Thermal measurement and control</li>
+			<li>PHP &amp; SQL Database Communication</li>
+			<li>Hysteresis for &quot;bang-bang&quot; control</li>
+		</ul>
+		<p style="text-indent: 40px">
+			During my spring semester 2nd year, I was in a group for an Arduino-powered automated desktop greenhouse project. The group consisted of myself the mechanical engineering major, a systems engineering major, and a computer engineering major. The project had aspects that each of us had knowledge in and that we would take the lead on. I was responsible for designing, 3D printing, and implementing a servo-motor controlled lid for the greenhouse. I used Autodesk Inventor to design the parts, and they were 3D printed on an ABS-extrusion Afinia printer. 
+		</p>
+		<p style="text-indent: 40px">
+			During the course of the project, I also began writing a significant portion of the code, and by the end of the project most of the code had been written by me with assistance from the other team members with debugging. The code was written in C for the Arduino microcontroller. There were also PHP scripts and HTML documents that we needed for the project in order to have our greenhouse communicate with a database and display data on a website. For the internet communication coding, the systems and computer engineer wrote most of the code, but I also assisted with debugging. The project was successfully completed on time. 
+		</p>
+		<p style="text-indent: 40px">
+			Based on my performance, the professor invited me to revisit the project this semester for a cyber-physical security demonstration. We reconstructed the greenhouse and circuit, then modified the code to utilize numerical simulation to predict the temperature and detect when the greenhouse has been tampered with. This project was presented to the UVA Systems Engineering Advisory Panel as a demonstration of student capabilities in the realm of cyber-physical security systems.
+		</p>
+	</div>
+
+	<div class="w3-third">
+		<img src="https://jaz-jlh.github.io/images/bike-light-handlebars.jpg" alt="Bike Light Interface" style="width: 100%">
+	</div>
+
+	<div class="w3-third">
+		<img src="https://jaz-jlh.github.io/images/bike-light-handlebars.jpg" alt="Bike Light Interface" style="width: 100%">
+	</div>
+</div>
+<!--  AUTOMATED GREENHOUSE -->
+
+
+<!-- ELECTRIC GUITAR -->
+<div class="w3-row-padding" style="margin-left: 256px;margin-right: 256px;margin-bottom: 50px">
+	<div class="w3-third">
+		<h3 class="w3-center" id="electric-guitar">
+			Electric Guitar
+		</h3>
+		<p>
+			Highlights:
+		</p>
+		<ul>
+			<li>CAD design and CNC toolpaths</li>
+			<li>Analog Circuit Exploration</li>
+			<li>Hands-on Manufacturing</li>
+		</ul>
+		<p style="text-indent: 40px">
+			akalskf
+		</p>
+	</div>
+
+	<div class="w3-third">
+		<img src="https://jaz-jlh.github.io/images/guitar-playing.gif" alt="Demo of the guitar" style="width: 100%">
+		<img src="https://jaz-jlh.github.io/images/guitar-lights.jpg" alt="Demo of the guitar" style="width: 100%">
+	</div>
+
+	<div class="w3-third">
+		<img src="https://jaz-jlh.github.io/images/guitar-holding.jpg" alt="The completed guitar" style="width: 100%">
+	</div>
+</div>
+<!--  ELECTRIC GUITAR -->
+
+
+<!-- VIRGINIA CLOCK -->
+<div class="w3-row-padding" style="margin-left: 256px;margin-right: 256px;margin-bottom: 50px">
+	<div class="w3-third">
+		<h3 class="w3-center" id="virginia-clock">
+			Virginia Clock
+		</h3>
+		<p>
+			Highlights:
+		</p>
+		<ul>
+			<li>Stepper Motor Control</li>
+			<li>Real Time Clock (RTC) Interfacing</li>
+			<li>Hands-on Manufacturing</li>
+			<li>CNC Routing</li>
+			<li>Circuit Board Layout and Assembly</li>
+			<li>Milling Components</li>
+		</ul>
+		<p style="text-indent: 40px">
+			akalskf
+		</p>
+	</div>
+
+	<div class="w3-third">
+		<img src="https://jaz-jlh.github.io/images/clock-workshop.jpg" alt="Partially completed clock" style="width: 100%">
+	</div>
+
+	<div class="w3-third">
+		<img src="https://jaz-jlh.github.io/images/milling.gif" alt="Milling parts for the clock" style="width: 100%">
+	</div>
+</div>
+<!-- VIRGINIA CLOCK -->
+
+
+
+
+
 <div class="w3-center" style="margin-bottom: 30px">
 &copy Jasbir Harnal 2017. Powered by <a href="http://www.w3schools.com/w3css/default.asp">w3.css</a>.
 </div>
