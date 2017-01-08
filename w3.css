@@ -27,10 +27,60 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 ::-webkit-input-placeholder{color:inherit;opacity:0.54}
 ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
 /* End extract */
+.graydiv{background-color: lightgray}
+.grid{max-width: 510px}
+/* Custom photo stuff from https://css-tricks.com/seamless-responsive-photo-grid/*/
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 3;
+  -webkit-column-gap:   10px;
+  -moz-column-count:    3;
+  -moz-column-gap:      10px;
+  column-count:         3;
+  column-gap:           10px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+/*Query browser to auto-adjust number of columns*/
+@media (max-width: 1200px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
 p,li{font-family: 'Roboto Condensed',sans-serif;}
 html,body{font-family:'Roboto Slab',serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
 h1,h2,h3,h4,h5,h6,.w3-slim,.w3-wide{font-family:"Roboto Slab",serif;}
-h1{font-size:36px}h2{font-size:40px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+h1{font-size:36px}h2{font-size:40px}h3{font-size:24px;background-color: lightgray}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
 .w3-serif{font-family:'Roboto Slab',serif}
 h1,h2,h3,h4,h5,h6{font-weight:400;margin:10px 0}.w3-wide{letter-spacing:4px}
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:inherit}
