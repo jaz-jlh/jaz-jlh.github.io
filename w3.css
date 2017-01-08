@@ -101,12 +101,21 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 #projects li {
 	text-align: left;
 }
+
+  #projectlist{
+  	margin-right: 200px;
+  	margin-left: 200px;
+  }
 /*Query browser to auto-adjust number of columns*/
 @media (max-width: 1200px) {
   #projects {
   -moz-column-count:    3;
   -webkit-column-count: 3;
   column-count:         3;
+  }
+  #projectlist{
+  	margin-right: 200px;
+  	margin-left: 200px;
   }
 }
 @media (max-width: 1000px) {
@@ -115,6 +124,10 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
   -webkit-column-count: 3;
   column-count:         3;
   }
+    #projectlist{
+  	margin-right: 100px;
+  	margin-left: 100px;
+  }
 }
 @media (max-width: 800px) {
   #projects {
@@ -122,12 +135,20 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
   -webkit-column-count: 2;
   column-count:         2;
   }
+    #projectlist{
+  	margin-right: 50px;
+  	margin-left: 50px;
+  }
 }
 @media (max-width: 400px) {
   #projects {
   -moz-column-count:    1;
   -webkit-column-count: 1;
   column-count:         1;
+  }
+    #projectlist{
+  	margin-right: 20px;
+  	margin-left: 20px;
   }
 }
 
