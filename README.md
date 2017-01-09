@@ -4,3 +4,4 @@ To Do:
 
 -add video links
 -add line following gif
+-resize images to improve loading time
