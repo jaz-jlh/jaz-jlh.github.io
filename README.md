@@ -2,6 +2,8 @@ See the [GitHub.io](https://jaz-jlh.github.io/portfolio.html) view of this repos
 
 To Do:
 
-*add video links
-*add line following gif
-*resize images to improve loading time
+<ul>
+<li>add video links</li>
+<li>add line following gif</li>
+<li>resize images to improve loading time</li>
+</ul>
