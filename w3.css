@@ -47,6 +47,8 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 /*Query browser to auto-adjust number of columns*/
 @media (max-width: 1200px) {
@@ -153,6 +155,10 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
   	margin-left: 20px;
   }
 }
+
+
+/*Hover text*/
+
 
 
 p,li{font-family: 'Roboto Condensed',sans-serif;}
