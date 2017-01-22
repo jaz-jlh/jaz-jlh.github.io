@@ -386,22 +386,19 @@
 	<p>&copy Jasbir Harnal 2017. Powered by <a href="http://www.w3schools.com/w3css/default.asp">w3.css</a>
 	</p>
 <?php
-
-/* counter */
-
 //opens countlog.txt to read the number of hits
-$datei = fopen("/countlog.txt","r");
-$count = fgets($datei,1000);
-fclose($datei);
-$count=$count + 1 ;
-echo "$count" ;
+//$datei = fopen("/countlog.txt","r");
+//$count = fgets($datei,1000);
+//fclose($datei);
+//$count=$count + 1 ;
+echo "count" ;
 echo " hits" ;
 echo "\n" ;
 
 // opens countlog.txt to change new hit number
-$datei = fopen("/countlog.txt","w");
-fwrite($datei, $count);
-fclose($datei);
+//$datei = fopen("/countlog.txt","w");
+//fwrite($datei, $count);
+//fclose($datei);
 
 ?>
 </div>
