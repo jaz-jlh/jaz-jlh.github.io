@@ -8,6 +8,7 @@ To Do:
 	<li>Project: add android app with images</li>
 	<li>Project: add capstone with images</li>
 	<li>add CAD design photos for semi-quadcopter and bike light, CAD with toolpaths for guitar</li>
+	<li>resize images to get consistent aspect ratios for labels</li>
 	<li><strike>add text hover descriptions for images</strike></li>
 	<li><strike>upload line-following video to youtube and link</strike></li>
 	<li><strike>add line-following gif (resize video)</strike></li>
