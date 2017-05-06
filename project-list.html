@@ -271,11 +271,11 @@
 				This project came about due to the lack of a good clock in Mech 205, a classroom in which MechE students have many classes. Rather than simply buy a new clock, we decided it would be a fun project to build one from scratch and apply our mechatronics knowledge to making a unique design. Since then, the project has undergone a few redesigns as we learned what did and didn't work.
 			</p>
 			<p>
-				There are two main subteams: mechanical and electrical/software. I have spent the majority of my time working on the electrical/software subteam (and now that construction has begun, the manufacturing team). The major electrical components in the system include the 2 stepper motors which move the minute and hour indicators, the Real Time Clock, the LED arrays which indicate the seconds and illuminate the hour and minute displays, and the Propeller Mini microcontroller. We went through a fair amount of breadboard testing with this project, and learned a great deal about debugging. The final version of the electrical system is all mounted on a single protoboard and soldered together with pins to allow swapping of Integrated Circuits (ICs). In order to fix potential issues with mechanical inconsistencies, we included Hall Effect sensors on the rotating components to behave like encoders to ensure that the display of time is correct.
+				There are two main subteams: mechanical and electrical/software. I have spent the majority of my time working on the electrical/software subteam, and manufacturing during assembly. The major electrical components in the system include the 2 stepper motors which move the minute and hour indicators, the Real Time Clock, the LED arrays which indicate the seconds and illuminate the hour and minute displays, and the Propeller Mini microcontroller. We went through a fair amount of breadboard testing with this project, and learned a great deal about debugging. The final version of the electrical system is all mounted on a single protoboard and soldered together with pins to allow swapping of Integrated Circuits (ICs). In order to fix potential issues with mechanical inconsistencies, we included Hall Effect sensors on the rotating components to behave like encoders to ensure that the display of time is correct.
 			</p>
 			<p>
-				The software for the clock is written in Propeller Spin for the Propeller microcontroller. Communication with the RTC and the high speed assembly code written to interface with the LED strip were provided by our professor, Gavin Garner, and integrated into our code controlling the motion of the stepper motors and the display of the time. 
-			</p>
+				The software for the clock is written in Propeller Spin for the Propeller microcontroller. Communication with the RTC and the high speed assembly code written to interface with the LED strip were provided by our professor, Gavin Garner, and integrated into our code controlling the motion of the stepper motors and the display of the time. The clock also automatically calibrates itself using the Hall Effect sensors to compensate for backlash in the gears over time.
+			</p
 			<p>
 				Check out the <a href="https://github.com/jaz-jlh/virginia-clock.git">Github Page for this project</a>.
 			</p>
@@ -284,7 +284,7 @@
 			<img src="https://jaz-jlh.github.io/images/clock-metal-gears.gif" alt="Testing the gears">
 			<img src="https://jaz-jlh.github.io/images/clock-protoboard.jpg" alt="Protoboard for the clock">
 			<!-- <img src="https://jaz-jlh.github.io/images/clock-circuit-diagram.jpg" alt="Circuit diagram for the clock"> -->
-			<img src="https://jaz-jlh.github.io/images/clock-light.gif" alt="Light demo for clock face">
+			<!-- <img src="https://jaz-jlh.github.io/images/clock-light.gif" alt="Light demo for clock face"> -->
 			<img src="https://jaz-jlh.github.io/images/clock-5pm.gif" alt="Fully assembled testing">
 		</section>
 	</div>
