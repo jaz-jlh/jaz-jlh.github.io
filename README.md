@@ -1,4 +1,4 @@
-See the [GitHub.io](https://jaz-jlh.github.io/portfolio.html) view of this repository.
+See the [GitHub.io](https://jaz-jlh.github.io/) view of this repository.
 
 To Do:
 
