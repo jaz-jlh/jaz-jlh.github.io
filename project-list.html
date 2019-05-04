@@ -34,7 +34,7 @@
 				<a href="https://www.linkedin.com/in/jazharnal">
 					<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" style="width: 50px;height: 50px;margin-right: 10px">
 				</a>
-				<a href="https://github.com/jaz-jlh"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" style="width: 50px;height: 50px;margin-left: 10px;"></a>
+				<a href="https://github.com/jaz-jlh"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" style="width: 50px;height: 50px;margin-left: 10px;"></a>
 			</div>
 		</div>
 	</header>
@@ -47,6 +47,118 @@
 <!-- Project List -->
 <div id=projectlist>
 
+		<!-- CLOCK -->
+	<div class="w3-center" style="margin-left: 10px;margin-right: 10px;margin-bottom: 50px;" id="clock">
+		<section id="projects" style="margin-bottom: 50px;">
+			<h3 class="w3-center" >
+				Virginia Clock
+			</h3>
+			<p style="text-indent: 0px;text-align: center;"><i>Group Project with Mechatronics Club</i></p>
+			<p style="text-indent: 0px">
+				Highlights:
+			</p>
+			<ul>
+				<li>Stepper Motor Control</li>
+				<li>Real Time Clock (RTC) Interfacing</li>
+				<li>Hands-on Manufacturing</li>
+				<li>CNC Routing</li>
+				<li>Circuit Board Layout and Assembly</li>
+				<li>Milling Components</li>
+			</ul>
+			<p>
+				This project started my 3rd year at UVA with 5 other MechE majors interested in mechatronics. During the course of this project, we started <a href="https://www.facebook.com/gizmologists">The Gizmologists</a> mechatronics club.
+			</p>
+			<p>
+				Motivation for this project came from the lack of a good clock in a large MechE classroom. We took this opportunity to build a clock from scratch and improve our mechatronics skills along the way.
+			</p>
+			<p style="text-indent: 0px;">Major electronic components</p>
+			<ul>
+				<li>2x stepper motors (minute & hour gears)</li>
+				<li>Real Time Clock (RTC)</li>
+				<li>LED Strips</li>
+				<li>Propeller Mini microcontroller</li>
+				<li>Hall Effect sensors</li>
+			</ul>
+			<p>
+				Our iterative breadboard testing taught us a great deal about debugging. The final version of the electrical system is a single soldered protoboard with pins to allow swapping of Integrated Circuits (ICs). We included Hall Effect sensors on the rotating gears for error correction. They behave like encoders, ensuring the clock displays the correct time.
+			</p>
+			<p>
+				The software is written in Propeller Spin for the Propeller microcontroller. The control code is relatively simple, but accounting for backlash in the gears was a challenge. Every 24 hours, the clock automatically re-calibrates itself using the Hall Effect sensors. This was a valuable lesson in compensating for mechanical inconsistencies with software.
+			</p>
+			<p>
+				Check out the <a href="https://github.com/jaz-jlh/virginia-clock.git">Github Page for this project</a>.
+			</p>
+			<img src="https://jaz-jlh.github.io/images/clock-mounted.gif" alt="The final version of the clock ticking over to 1pm">
+			<br>
+			<img src="https://jaz-jlh.github.io/images/milling.gif" alt="Milling parts for the clock">
+			<img src="https://jaz-jlh.github.io/images/clock-metal-gears.gif" alt="Testing the gears">
+			<img src="https://jaz-jlh.github.io/images/clock-protoboard.jpg" alt="Protoboard for the clock">
+			<img src="https://jaz-jlh.github.io/images/clock-workshop.jpg" alt="Partially completed clock">
+			<img src="https://jaz-jlh.github.io/images/clock-light.gif" alt="Light demo for clock face">
+			<!-- <img src="https://jaz-jlh.github.io/images/clock-5pm.gif" alt="Fully assembled testing"> -->
+		</section>
+	</div>
+	<!-- CLOCK -->
+
+	<!-- ELECTRIC GUITAR -->
+	<div class="w3-center" style="margin-left: 10px;margin-right: 10px;margin-bottom: 50px" id="guitar">
+		<section id="projects">
+			<h3 class="w3-center" >
+				Electric Guitar
+			</h3>
+			<p style="text-indent: 0px;text-align: center;"><i>MechE Group Project for Advanced Mechatronics course</i></p>
+			<p style="text-indent: 0px">
+				Highlights:
+			</p>
+			<ul>
+				<li>CAD design and CNC toolpaths</li>
+				<li>Analog Circuit Exploration</li>
+				<li>Hands-on Manufacturing</li>
+			</ul>
+			<p>
+				I completed this project with 2 other MechEs during my 4th year at UVA. We chose Deadpool as the theme for our guitar, and styled the body after the <a href="https://en.wikipedia.org/wiki/Gibson_Les_Paul">Gibson Les Paul</a>. We designed the body in Solidworks and used an add-in called HSMWorks to create the CNC toolpaths. A ShopBot CNC router cut the body out of wood. Constructing the guitar required us to balance manufacturability, aesthetics, acoustics, and structural integrity. 
+			</p>
+			<p>
+				In addition to the guitar, we designed and built 2 analog effect circuits. This involved building circuits in NI's Multisim and testing them with simulation software, then constructing them on a breadboard. One circuit was a combination of 3 bandpass filters, and the other contained an integrator and an active half-wave rectifier.
+			</p>
+			<img src="https://jaz-jlh.github.io/images/guitar-playing.gif" alt="Demo of the guitar">
+			<img src="https://jaz-jlh.github.io/images/guitar-lights.jpg" alt="Guitar with the lights on">
+			<img src="https://jaz-jlh.github.io/images/guitar-model.PNG" alt="Solidworks model of guitar">
+			<img src="https://jaz-jlh.github.io/images/guitar-holding.jpg" alt="The completed guitar">
+			<img src="https://jaz-jlh.github.io/images/guitar-effects-circuits.jpg" alt="The analog effects circuits we designed and built">
+		</section>
+	</div>
+	<!--  ELECTRIC GUITAR -->
+
+	<!-- CAPSTONE -->
+	<div class="w3-center" style="margin-left: 10px;margin-right: 10px;margin-bottom: 50px" id="capstone">
+		<section id="projects" style="margin-bottom: 50px">
+			<h3 class="w3-center" >
+				Smart Lighting for City Parks
+			</h3>
+			<p style="text-indent: 0px;text-align: center;"><i>Interdisciplinary Capstone Project</i></p>
+			<p style="text-indent: 0px">
+				Highlights:
+			</p>
+			<ul>
+				<li>Embedded wireless networking</li>
+				<li>Motion sensing</li>
+				<li>Cross-functional team</li>
+				<li>Poster, paper, & presentation at SIEDS Conference</li>
+			</ul>
+			<p>
+
+			</p>
+				Check out the <a href="https://ieeexplore.ieee.org/document/7937736/citations?tabFilter=papers#citations">IEEE Paper</a>.
+			</p>
+			<img src="https://jaz-jlh.github.io/images/capstone-animation.gif" alt="Animation of system operation">
+			<img src="https://jaz-jlh.github.io/images/capstone-diagram.png" alt="Block diagram of system">
+			<img src="https://jaz-jlh.github.io/images/capstone-internal-prototype1.jpg" alt="Prototype of device">
+			<img src="https://jaz-jlh.github.io/images/capstone-light-pole.jpg" alt="City light pole in our design lab">
+			<img src="https://jaz-jlh.github.io/images/capstone-pir-insert.gif" alt="Video of installing PIR sensor in light pole">
+		</section>
+	</div>
+	<!-- CAPSTONE -->
 
 	<!-- BIKE LIGHT -->
 	<div class="w3-center" style="margin-left: 10px;margin-right: 10px;margin-bottom: 50px" id="smart-bike-light">
@@ -153,7 +265,7 @@
 	<div class="w3-center" style="margin-left: 10px;margin-right: 10px;margin-bottom: 50px" id="line-following-robot">
 		<section id="projects">
 			<h3 class="w3-center" >
-				Line-Following Robot
+				Line-Following Delivery Robot
 			</h3>
 			<p style="text-indent: 0px;text-align: center;"><i>Interdisciplinary Group Project for Intro to Electromechanical Systems course</i></p>
 			<p style="text-indent: 0px">
@@ -165,7 +277,13 @@
 				<li>Single Processor Timing Management</li>
 			</ul>
 			<p>
-				In my Intro to Electromechanical Systems class, we were assigned a group project. We were required to build an Arduino powered line-following automated delivery robot. I was in a team with systems and computer engineering majors. I was responsible for building the robot and coding in Arduino. I designed the chassis and mounting for the servo delivery system in Autodesk Inventor. The servo delivery system was 3D printed on an Afinia 3D printer, and the chassis was laser cut out of acrylic. I also created most of the circuits for the robot, and designed the chassis to fit all of the necessary components which included the battery pack, the Arduino microcontroller, breadboard, motors with encoders, and reflectance sensors. Our robot was the first to be successfully completed and the professor used our robot to test his code on. During the following semester, I worked with my professor to update the code for the robot to be compatible with a WiFi shield that allowed the robot to operate wirelessly.
+				During my 2nd year at UVA, I completed this project with a SysE and EE major. I was responsible for building the robot and writing the C code to control the robot.
+			</p>
+			<p>
+				I designed the chassis and mounting for the servo delivery system in Autodesk Inventor. The servo delivery system was 3D printed on an Afinia 3D printer, and the chassis was laser cut acrylic. I also created most of the circuits for the robot, and designed the chassis to fit the battery pack, the Arduino microcontroller, breadboard, motors with encoders, and reflectance sensors.
+			</p>
+			<p>
+				My team finished building our robot first, and our professor used our robot to develop his solution. During the following semester, I worked with my professor to update the code for the robot to be compatible with a WiFi shield that allowed the robot to operate wirelessly.
 			</p>
 			<p>
 				Check out the <a href="https://github.com/jaz-jlh/i2ems-arduino-projects">GitHub page for this project</a> or the <a href="https://youtu.be/Qrqyl1eKfNA">YouTube video</a>.
@@ -195,10 +313,10 @@
 				<li>Hysteresis for &quot;bang-bang&quot; control</li>
 			</ul>
 			<p>
-				During my spring semester 2nd year, I was in a group for an Arduino-powered automated desktop greenhouse project. The group consisted of myself the mechanical engineering major, a systems engineering major, and a computer engineering major. The project had aspects that each of us had knowledge in and that we would take the lead on. I was responsible for designing, 3D printing, and implementing a servo-motor controlled lid for the greenhouse. I used Autodesk Inventor to design the parts, and they were 3D printed on an ABS-extrusion Afinia printer. 
+				During my spring semester 2nd year, I was in a group for an Arduino-powered automated desktop greenhouse project. I was responsible for designing, 3D printing, and implementing a servo-motor controlled lid for the greenhouse. I used Autodesk Inventor to design the parts, and they were 3D printed on an ABS-extrusion Afinia printer. 
 			</p>
 			<p>
-				During the course of the project, I also began writing a significant portion of the code, and by the end of the project most of the code had been written by me with assistance from the other team members with debugging. The code was written in C for the Arduino microcontroller. There were also PHP scripts and HTML documents that we needed for the project in order to have our greenhouse communicate with a database and display data on a website. For the internet communication coding, the systems and computer engineer wrote most of the code, but I also assisted with debugging. The project was successfully completed on time. 
+				During the course of the project, I also began writing a significant portion of the code, and by the end of the project most of the code had been written by me with assistance from the other team members with debugging. The code was written in C for the Arduino microcontroller. There were also PHP scripts and HTML documents for greenhouse communication with a database and displaying data on a website. For the internet communication coding, the systems and computer engineer wrote most of the code, but I also assisted with debugging. The project was successfully completed on time. 
 			</p>
 			<p>
 				Based on my performance, the professor invited me to revisit the project this semester for a cyber-physical security demonstration. We reconstructed the greenhouse and circuit, then modified the code to utilize numerical simulation to predict the temperature and detect when the greenhouse has been tampered with. This project was presented to the UVA Systems Engineering Advisory Panel as a demonstration of student capabilities in the realm of cyber-physical security systems.
@@ -213,82 +331,6 @@
 		</section>
 	</div>
 	<!--  AUTOMATED GREENHOUSE -->
-
-
-	<!-- ELECTRIC GUITAR -->
-	<div class="w3-center" style="margin-left: 10px;margin-right: 10px;margin-bottom: 50px" id="guitar">
-		<section id="projects">
-			<h3 class="w3-center" >
-				Electric Guitar
-			</h3>
-			<p style="text-indent: 0px;text-align: center;"><i>Mechanical Engineering Group Project for Advanced Mechatronics course</i></p>
-			<p style="text-indent: 0px">
-				Highlights:
-			</p>
-			<ul>
-				<li>CAD design and CNC toolpaths</li>
-				<li>Analog Circuit Exploration</li>
-				<li>Hands-on Manufacturing</li>
-			</ul>
-			<p>
-				This group project was part of my Advanced Mechatronics course during my fourth year at UVA. With 2 other mechanical engineers, we chose Deadpool as the theme for our guitar, and designed the body after the <a href="https://en.wikipedia.org/wiki/Gibson_Les_Paul">Gibson Les Paul</a>. We designed the body in Solidworks, and with an add-in called HSMWorks we created the toolpaths to cut out the guitar. A ShopBot CNC router was used to cut the body out of wood. Constructing the guitar required us to balance manufacturability, aesthetics, acoustics, and structural integrity. 
-			</p>
-			<p>
-				In addition to creating the electric guitar, we designed and built 2 analog effect circuits. This involved designing circuits in NI's Multisim and testing them with the simulation software, then constructing them on a breadboard. One circuit was a combination of 3 bandpass filters, and the other contained an integrator and an active half-wave rectifier.
-			</p>
-			<img src="https://jaz-jlh.github.io/images/guitar-playing.gif" alt="Demo of the guitar">
-			<img src="https://jaz-jlh.github.io/images/guitar-lights.jpg" alt="Guitar with the lights on">
-			<img src="https://jaz-jlh.github.io/images/guitar-model.PNG" alt="Solidworks model of guitar">
-			<img src="https://jaz-jlh.github.io/images/guitar-holding.jpg" alt="The completed guitar">
-			<img src="https://jaz-jlh.github.io/images/guitar-effects-circuits.jpg" alt="The analog effects circuits we designed and built">
-		</section>
-	</div>
-	<!--  ELECTRIC GUITAR -->
-
-
-	<!-- CLOCK -->
-	<div class="w3-center" style="margin-left: 10px;margin-right: 10px;margin-bottom: 50px" id="clock">
-		<section id="projects" style="margin-bottom: 50px">
-			<h3 class="w3-center" >
-				Virginia Clock
-			</h3>
-			<p style="text-indent: 0px;text-align: center;"><i>Group Project with Mechatronics Club</i></p>
-			<p style="text-indent: 0px">
-				Highlights:
-			</p>
-			<ul>
-				<li>Stepper Motor Control</li>
-				<li>Real Time Clock (RTC) Interfacing</li>
-				<li>Hands-on Manufacturing</li>
-				<li>CNC Routing</li>
-				<li>Circuit Board Layout and Assembly</li>
-				<li>Milling Components</li>
-			</ul>
-			<p>
-				This project was started during my third year at UVA with 5 other mechanical engineering majors interested in mechatronics. During the course of this project, we were inspired to start a mechatronics club called <a href="https://www.facebook.com/gizmologists">The Gizmologists</a>.
-			</p>
-			<p>
-				This project came about due to the lack of a good clock in Mech 205, a classroom in which MechE students have many classes. Rather than simply buy a new clock, we decided it would be a fun project to build one from scratch and apply our mechatronics knowledge to making a unique design. Since then, the project has undergone a few redesigns as we learned what did and didn't work.
-			</p>
-			<p>
-				There are two main subteams: mechanical and electrical/software. I have spent the majority of my time working on the electrical/software subteam, and manufacturing during assembly. The major electrical components in the system include the 2 stepper motors which move the minute and hour indicators, the Real Time Clock, the LED arrays which indicate the seconds and illuminate the hour and minute displays, and the Propeller Mini microcontroller. We went through a fair amount of breadboard testing with this project, and learned a great deal about debugging. The final version of the electrical system is all mounted on a single protoboard and soldered together with pins to allow swapping of Integrated Circuits (ICs). In order to fix potential issues with mechanical inconsistencies, we included Hall Effect sensors on the rotating components to behave like encoders to ensure that the display of time is correct.
-			</p>
-			<p>
-				The software for the clock is written in Propeller Spin for the Propeller microcontroller. Communication with the RTC and the high speed assembly code written to interface with the LED strip were provided by our professor, Gavin Garner, and integrated into our code controlling the motion of the stepper motors and the display of the time. The clock also automatically calibrates itself using the Hall Effect sensors to compensate for backlash in the gears over time.
-			</p
-			<p>
-				Check out the <a href="https://github.com/jaz-jlh/virginia-clock.git">Github Page for this project</a>.
-			</p>
-			<img src="https://jaz-jlh.github.io/images/clock-workshop.jpg" alt="Partially completed clock">
-			<img src="https://jaz-jlh.github.io/images/milling.gif" alt="Milling parts for the clock">
-			<img src="https://jaz-jlh.github.io/images/clock-metal-gears.gif" alt="Testing the gears">
-			<img src="https://jaz-jlh.github.io/images/clock-protoboard.jpg" alt="Protoboard for the clock">
-			<img src="https://jaz-jlh.github.io/images/clock-mounted.gif" alt="The final version of the clock ticking over to 1pm">
-			<!-- <img src="https://jaz-jlh.github.io/images/clock-light.gif" alt="Light demo for clock face"> -->
-			<!-- <img src="https://jaz-jlh.github.io/images/clock-5pm.gif" alt="Fully assembled testing"> -->
-		</section>
-	</div>
-	<!-- CLOCK -->
 
 </div>
 
