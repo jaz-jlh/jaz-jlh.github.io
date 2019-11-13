@@ -66,7 +66,7 @@
 				<li>Milling Components</li>
 			</ul>
 			<p>
-				This project started my 3rd year at UVA with 5 other MechE majors interested in mechatronics. During the course of this project, we started <a href="https://www.facebook.com/gizmologists">The Gizmologists</a> mechatronics club.
+				During my 3rd year at UVA, I started this project along with 5 other MechE majors interested in mechatronics. During the course of this project, we started <a href="https://www.facebook.com/gizmologists">The Gizmologists</a> mechatronics club.
 			</p>
 			<p>
 				Motivation for this project came from the lack of a good clock in a large MechE classroom. We took this opportunity to build a clock from scratch and improve our mechatronics skills along the way.
@@ -80,7 +80,7 @@
 				<li>Hall Effect sensors</li>
 			</ul>
 			<p>
-				Our iterative breadboard testing taught us a great deal about debugging. The final version of the electrical system is a single soldered protoboard with pins to allow swapping of Integrated Circuits (ICs). We included Hall Effect sensors on the rotating gears for error correction. They behave like encoders, ensuring the clock displays the correct time.
+				Our iterative breadboard testing taught us a great deal about debugging. The final version of the electrical system was a single soldered protoboard with pins to allow swapping of Integrated Circuits (ICs). We included Hall Effect sensors on the rotating gears for error correction. They behave like encoders, ensuring the clock displays the correct time.
 			</p>
 			<p>
 				The software is written in Propeller Spin for the Propeller microcontroller. The control code is relatively simple, but accounting for backlash in the gears was a challenge. Every 24 hours, the clock automatically re-calibrates itself using the Hall Effect sensors. This was a valuable lesson in compensating for mechanical inconsistencies with software.
@@ -116,10 +116,10 @@
 				<li>Hands-on Manufacturing</li>
 			</ul>
 			<p>
-				I completed this project with 2 other MechEs during my 4th year at UVA. We chose Deadpool as the theme for our guitar, and styled the body after the <a href="https://en.wikipedia.org/wiki/Gibson_Les_Paul">Gibson Les Paul</a>. We designed the body in Solidworks and used an add-in called HSMWorks to create the CNC toolpaths. A ShopBot CNC router cut the body out of wood. Constructing the guitar required us to balance manufacturability, aesthetics, acoustics, and structural integrity. 
+				I completed this project with 2 other MechEs during my 4th year at UVA. We chose Deadpool as the theme for our guitar, and styled the body after the <a href="https://en.wikipedia.org/wiki/Gibson_Les_Paul">Gibson Les Paul</a>. We designed the body in Solidworks and used HSMWorks to create the CNC toolpaths. We used a ShopBot CNC router to cut the body out of wood. Constructing the guitar required us to balance manufacturability, aesthetics, acoustics, and structural integrity. 
 			</p>
 			<p>
-				In addition to the guitar, we designed and built 2 analog effect circuits. This involved building circuits in NI's Multisim and testing them with simulation software, then constructing them on a breadboard. One circuit was a combination of 3 bandpass filters, and the other contained an integrator and an active half-wave rectifier.
+				We also designed and built 2 analog effect circuits to go with the guitar. This involved building circuits in NI's Multisim and testing them with simulation software, then constructing them on a breadboard. One circuit was a combination of 3 bandpass filters, and the other contained an integrator and an active half-wave rectifier.
 			</p>
 			<img src="https://jaz-jlh.github.io/images/guitar-playing.gif" alt="Demo of the guitar">
 			<img src="https://jaz-jlh.github.io/images/guitar-lights.jpg" alt="Guitar with the lights on">
@@ -177,10 +177,10 @@
 				<li>Mechanical-Electrical Integration</li>
 			</ul>
 			<p>
-				This was the final project for my Integrated Systems Design course, and involved a bike lighting system. It was intentionally left open ended so that we could embed ourselves in the problem to learn more about user needs and find out what we needed to design on our own rather than be given strict requirements. This project was a challenge because our system needed to accept power from a generator hub on the bike, power a light while the user needed it, and alternatively power a USB accessory. Our project team consisted of 2 computer engineers, 2 mechanical engineers, and 1 systems engineer. While we all had our own respective areas of expertise, we were required to interface with each other and understand the different disciplines within the project to ensure smooth integration.
+				This was the final project for my Integrated Systems Design course. It was intentionally left open ended so that we could embed ourselves in the problem to learn more about user needs and find out what we needed to design on our own. This project was a challenge because our system needed to accept power from a generator hub on the bike, power a light while the user needed it, and alternatively power a USB accessory. Our project team consisted of 2 computer engineers, 2 mechanical engineers, and 1 systems engineer. While we all had our own respective areas of expertise, we were required to interface with each other and understand the different disciplines within the project to ensure smooth integration.
 			</p>
 			<p>
-				During this project I learned a great deal about AC to DC power conversion, the difficulties of working with an inconsistent power supply (a bike generator hub), and the non-trivial task of getting electrical and mechanical systems to integrate while still meeting design requirements. Specifically, I worked with the electrical design speccing parts and testing generator hubs. I also worked on the HMI and user experience for the system.
+				During this project I learned a great deal about AC to DC power conversion, the difficulties of working with an inconsistent power supply (the generator hub), and the non-trivial task of getting electrical and mechanical systems to integrate while still meeting design requirements. Specifically, I worked with the electrical design speccing parts and testing generator hubs. I also worked on the HMI and user experience for the system.
 			</p>
 			<p>
 				Check out the <a href="https://www.youtube.com/watch?v=p42HALTyDoc">YouTube video of this project.</a> It demonstrates the final version of the system's functionality.
@@ -223,7 +223,7 @@
 				<li>Multi-processor Management</li>
 			</ul>
 			<p>
-				This was the final project for my Mechatronics course, and our team of 3 was composed entirely of MechEs. Using an accelerometer, gyroscope, and ultrasonic sensor, we controlled 2 degrees of freedom of a semi-quadcopter system with 2 propellers. We implemented a Kalman filter to process the noise from the accelerometer and the drift in the gyroscope. The speed of the propellers was controlled using Proportional Integral Derivative (PID) control to adjust the power supplied to the motors through an H-Bridge with pulse-width modulation (PWM). I was responsible for the control code and most of the 3D printed parts we designed to create our structure. The code was written in C for the Propeller microcontroller.
+				This was the final project for my Mechatronics course with a team of 3 MechEs. Using an accelerometer, gyroscope, and ultrasonic sensor, we controlled 2 degrees of freedom of a semi-quadcopter system with 2 propellers. We implemented a Kalman filter to process the noise from the accelerometer and the drift in the gyroscope. The speed of the propellers was controlled using Proportional Integral Derivative (PID) control to adjust the power supplied to the motors through an H-Bridge with pulse-width modulation (PWM). I was responsible for the control code and most of the 3D printed parts we designed to create our structure. The code was written in C for the Propeller microcontroller.
 			</p>
 			<p>
 				Check out the <a href="https://github.com/jaz-jlh/mechatronics-propeller-c-projects">GitHub page for this project</a> or the <a href="https://www.youtube.com/watch?v=K2ZDe1L-qCo">YouTube video </a> I made with a team discussing PID in the context of the semi-quadcopter.
@@ -251,7 +251,7 @@
 				<li>Electromechanical Design and Integration</li>
 			</ul>
 			<p>
-				This was an independent project for fun which involved building an Arduino controlled slider for taking time-lapses. The slider mounts between two tripods, and a DC motor moves the carriage along the track while the camera takes pictures at an interval. I designed the project in SolidWorks, and many of the parts were 3D printed on an Afinia 3D printer using my own designs. Other parts that were not 3D printed I specified and bought online. For some aluminum parts I used a horizontal band saw and lathe to make the parts, and some electronic parts also required soldering. This project was inspired by an Instructables.com project for a cheap DSLR slider rail using 3D printed parts. I started this project after my introductory mechatronics course as a way to combine my passion for photography with my interest in mechatronics.
+				This was an independent project I did for fun to build an Arduino controlled slider for taking time-lapses. The slider mounts between two tripods, and a DC motor moves the carriage along the track while the camera takes pictures at an interval. I designed the project in SolidWorks, and 3D printed many of the parts on an Afinia 3D printer. Other parts that were not 3D printed I bought online. I used a horizontal band saw and lathe to modify some aluminum parts, and soldered the electronic parts. This project was inspired by an Instructables.com project for a cheap DSLR slider rail using 3D printed parts. I started this project after my introductory mechatronics course as a way to combine my passions for photography and mechatronics.
 			</p>
 			<p>
 				Ensuring smooth motion with 3D printed parts turned out to be more difficult than I anticipated, so the slider did not work as well as I had intended. It was a valuable lesson in understanding when to purchase or "roll-your-own" hardware.
@@ -320,10 +320,10 @@
 				During my spring semester 2nd year, I was in a group for an Arduino-powered automated desktop greenhouse project. I was responsible for designing, 3D printing, and implementing a servo-motor controlled lid for the greenhouse. I used Autodesk Inventor to design the parts, and they were 3D printed on an ABS-extrusion Afinia printer. 
 			</p>
 			<p>
-				During the course of the project, I also began writing a significant portion of the code, and by the end of the project most of the code had been written by me with assistance from the other team members with debugging. The code was written in C for the Arduino microcontroller. There were also PHP scripts and HTML documents for greenhouse communication with a database and displaying data on a website. For the internet communication coding, the systems and computer engineer wrote most of the code, but I also assisted with debugging. The project was successfully completed on time. 
+				During the course of the project, I also began writing a significant portion of the code, and by the end of the project I had written most of the code with assistance from the other team members with debugging. The code was written in C for the Arduino microcontroller. There were also PHP scripts and HTML documents for greenhouse communication with a database and displaying data on a website. For the internet communication, the systems and computer engineer wrote most of the code, but I also assisted with debugging.
 			</p>
 			<p>
-				Based on my performance, the professor invited me to revisit the project this semester for a cyber-physical security demonstration. We reconstructed the greenhouse and circuit, then modified the code to utilize numerical simulation to predict the temperature and detect when the greenhouse has been tampered with. This project was presented to the UVA Systems Engineering Advisory Panel as a demonstration of student capabilities in the realm of cyber-physical security systems.
+				Based on my performance, the professor invited me to revisit the project the next semester for a cyber-physical security demonstration. We reconstructed the greenhouse and circuit, then modified the code to utilize numerical simulation to predict the temperature and detect when the greenhouse has been tampered with. This project was presented to the UVA Systems Engineering Advisory Panel as a demonstration of student capabilities in the realm of cyber-physical security systems.
 			</p>
 			<p>
 				Check out the <a href="https://github.com/jaz-jlh/i2ems-arduino-projects">GitHub page for this project.</a>
