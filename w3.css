@@ -49,10 +49,10 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
   height: auto !important;
   margin-bottom: 5px;
   margin-top: 5px;
-  animation: fadein 2s; 
-  -moz-animation: fadein 2s; /* Firefox */
-  -webkit-animation: fadein 2s; /* Safari and Chrome */
-  -o-animation: fadein 2s; /* Opera */
+  animation: fadein 1s; 
+  -moz-animation: fadein 1s; /* Firefox */
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  -o-animation: fadein 1s; /* Opera */
 }
 /*Query browser to auto-adjust number of columns*/
 @media (max-width: 1200px) {
