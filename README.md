@@ -5,9 +5,9 @@ To Do:
 <ul>
 	<li>update descriptions</li>
 	<li>fix awkward gaps</li>
-	<li>Project: add android app with images</li>
-	<li>Project: add capstone with images</li>
-	<li>add CAD design photos for semi-quadcopter and bike light, CAD with toolpaths for guitar</li>
+	<li><strike>Project: add 3d printing with images</strike></li>
+	<li><strike>Project: add jet with images</strike></li>
+	<li><strike>add CAD design photos for semi-quadcopter and bike light, CAD with toolpaths for guitar<strike></li>
 	<li>resize images to get consistent aspect ratios for labels</li>
 	<li><strike>add link to overview page on list page</strike></li>
 	<li><strike>add text hover descriptions for images</strike></li>
